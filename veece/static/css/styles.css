@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 1.2rem;
+}
+
+#navbarSupportedContent ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+#navbarSupportedContent a {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+#howTo {
+    background-color: #F6F6F6;
+}
+
+.px-howTo h4,
+#howTo span {
+    letter-spacing: 1px;
+}
+
+.px-howTo h4 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#howTo span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#howTo i {
+    font-size: 80px;
+    color: cadetblue;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#howTo h5 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#ready h4 {
+    color: #34c5bf;
+}
+
+#ready span {
+    color: #6f46ea;
+}
+
+#ready h4,
+#ready span {
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+#ready a {
+    margin-top: 17%;
+}
+
+#footer-links ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#footer-links li {
+    margin-bottom: 5px;
+}
+
+#footer-links a {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CUSTOM CSS STYLES START */
+
+.px-howTo {
+    padding-left: 35% !important;
+    padding-right: 35% !important;
+}
+
+.btn-ready {
+    padding: 0.85rem 1.75rem !important;
+    color: #fff;
+}
+ 
+/* CUSTOM CSS STYLES START */
