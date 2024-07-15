@@ -3,6 +3,171 @@
 
 {% block content %}
 
+<!--Jumbotron section STARTS-->
+<div class="container-fluid" id="jumbo">
+    <div class="row px-5">
+        <div class="col-6 d-flex flex-column align-self-center">
+            <h3>Your money at your fingertips</h3>
+            <h5>Send. Spend. Buy. Join 1 million+ happy users worldwide.</h5>
+            <div>
+                <a class="btn btn-info btn-ready" href="#" role="button">Get started</a>
+            </div>     
+        </div>
+        <div class="col-6">
+            <img src="{% static 'pictures/jumbo1.webp' %}" class="d-block w-100" alt="...">
+        </div>
+    </div>
+</div>
+
+<!--Jumbotron section ENDS-->
+
+
+<!--Review section STARTS-->
+
+<div class="container">
+    <div class="row py-5">
+        <div class="col-12 d-flex justify-content-evenly">
+            <img src="{% static 'pictures/Forbes-Logo.svg' %}" class="d-block " alt="...">
+            <img src="{% static 'pictures/Khaleej-Times-Logo.svg' %}" class="d-block " alt="...">
+            <img src="{% static 'pictures/The-National-logo.svg' %}" class="d-block " alt="...">
+            <img src="{% static 'pictures/Bloomerang-Logo.svg' %}" class="d-block " alt="...">
+        </div>
+        
+    </div>
+</div>
+
+<!--Review section ENDS-->
+
+
+<!--What Is? section STARTS-->
+
+<div class="container-fluid py-5" id="what-is">
+    <div class="row">
+        <div class="col-12 px-whatIs text-center">
+            <h5>What is Veece?</h5>
+            <p>Pyypl (pronounced “people”) is a non-bank digital app that gives everyone access to the financial system through a smartphone. With an internationally accepted prepaid Visa, conducting transactions with Pyypl is as simple as sending a message.</p>
+        </div>
+    </div>
+</div>
+
+<!--What Is? section ENDS-->
+
+
+<!--How It Works section STARTS-->
+
+<div class="container-fluid py-5" id="howWorks">
+    <div class="row">
+        <div class="col-12 px-howWorks text-center">
+            <h5>How It Works?</h5>
+            <p>Pyypl is for everyone, no bank account needed, no minimum salary, no minimum balance, no post-dated cheques, no paperwork, and no branch visit.</p>
+        </div>
+    </div>
+
+    <div class="row pt-4">
+        <div class="col-6 d-flex px-howWorks1">
+            <div>
+                <i class="fa-solid fa-file-circle-check"></i>
+            </div>
+            <div class="ms-3">
+                <h6>Apply in seconds</h6>
+                <span>You only need your local phone number and your ID/Passport</span>
+            </div>
+        </div>
+
+        <div class="col-6 d-flex px-howWorks1">
+            <div>
+                <i class="fa-solid fa-circle-dollar-to-slot"></i>
+            </div>
+            <div class="ms-3">
+                <h6>Top up with ease</h6>
+                <span>Load with debit card, bank transfer, mobile money or bill payment terminals, depending on your country</span>
+            </div>
+        </div>
+
+        <div class="col-6 d-flex px-howWorks1 mt-5">
+            <div>
+                <i class="fa-solid fa-credit-card"></i>
+            </div>
+            <div class="ms-3">
+                <h6>Get instant access</h6>
+                <span>Simply top up your app and get access to your virtual card.</span>
+            </div>
+        </div>
+
+        <div class="col-6 d-flex px-howWorks1 mt-5">
+            <div>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="ms-3">
+                <h6>Manage your money anywhere, anytime</h6>
+                <span>Send money across multiple countriues, pay your bills, shop online and much more.</span>
+            </div>
+        </div>
+       
+    </div>
+</div>
+<!--How It Works section ENDS-->
+
+
+<!--Shop Online section STARTS-->
+
+<div class="container" id="shopOnline">
+    <div class="row">
+        <div class="col-6 pt-5">
+            <div id="shopOnlineImg">
+                <img src="{% static 'pictures/virtual-card.webp' %}" class="d-block shopImg" alt="...">
+            </div>
+            
+        </div>
+        <div class="col-6" id="shopOnlineText">
+            <p>VIRTUAL CARD</p>
+            <h4>Shop Online</h4>
+
+            <ul>
+                <li><i class="fa-solid fa-credit-card"></i>Get your virtual card in seconds</li>
+                <li><i class="fa-solid fa-cart-shopping"></i>Shop online across millions of stores worldwide</li>
+                <li><i class="fa-solid fa-money-check-dollar"></i>Enjoy limited-time cashback offers</li>
+                <li><i class="fa-solid fa-cash-register"></i></i>Pay your bills with a tap of your phone</li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--Shop Online section ENDS-->
+
+
+<!--Money Transfer section STARTS-->
+
+<div class="container" id="shopOnline">
+    <div class="row">
+        <div class="col-6" id="shopOnlineText">
+            <p>Security</p>
+            <h4>Secure and Reliable: Our Commitment to Your Safety</h4>
+
+            <ul>
+                <li><i class="fa-solid fa-shield-halved"></i>Enhanced Data Protection with PCI DSS v4.0 Certification</li>
+                <li><i class="fa-solid fa-lock"></i>Advanced Security Measures. We use the latest technologies to protect your information from cyber threats.</li>
+                <li><i class="fa-regular fa-circle-check"></i>Trusted Compliance. We meet the highest industry standards to ensure your peace of mind.</li>
+            </ul>
+        </div>
+
+        <div class="col-6 pt-5">
+            <div id="shopOnlineImg">
+                <img src="{% static 'pictures/security.png' %}" class="d-block shopImg" alt="...">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Money Transfer section ENDS-->
+
+
+
+
+
+
 
 
 {% endblock %}

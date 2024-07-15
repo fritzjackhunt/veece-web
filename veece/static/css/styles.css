@@ -70,6 +70,139 @@
     margin-top: 17%;
 }
 
+
+/* HOMEPAGE CSS STYLES START */
+
+#jumbo {
+    background-color: #684FFF;
+}
+
+#jumbo h3 {
+    font-size: 48px;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 56px;
+    font-weight: 900;
+}
+
+#jumbo h5 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+#what-is {
+    background-color: #E4DFFB;
+}
+
+#what-is h5,
+#howWorks h5 {
+    color: #484848;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+#what-is p,
+#howWorks p {
+    color: #484848;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+#howWorks {
+    background-color: #F6F6F6;
+}
+
+#howWorks i {
+    font-size: 40px;
+    color: cadetblue;
+} 
+
+#howWorks h6 {
+    color: #484848;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#howWorks span {
+    color: #484848;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#shopOnline p {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+}
+
+#shopOnlineText {
+    padding-top: 64px;
+}
+
+.shopImg {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shopOnlineImg {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 510px;
+} 
+
+#shopOnline h4 {
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+#shopOnline ul {
+    list-style-type: none;
+    padding-left: 0rem;
+}
+
+#shopOnline li:first-child {
+    padding-top: 32px;
+}
+
+#shopOnline li {
+    color: #484848;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 64px;
+}
+
+#shopOnline i {
+    font-size: 24px;
+    color: #6F46EA;
+    margin-right: 10px;
+}
+
+
+/* HOMEPAGE CSS STYLES END */
+
+
+
+
+
+
+/* FOOTER CSS STYLES START */
+
 #footer-links ul {
     list-style-type: none;
     text-decoration: none;
@@ -83,28 +216,7 @@
     color: black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* FOOTER CSS STYLES END */
 
 
 /* CUSTOM CSS STYLES START */
@@ -112,6 +224,21 @@
 .px-howTo {
     padding-left: 35% !important;
     padding-right: 35% !important;
+}
+
+.px-whatIs {
+    padding-left: 30% !important;
+    padding-right: 30% !important;
+}
+
+.px-howWorks {
+    padding-left: 22% !important;
+    padding-right: 22% !important;
+}
+
+.px-howWorks1 {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
 }
 
 .btn-ready {
