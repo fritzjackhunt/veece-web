@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-vjj854ud44v3pz@f45v)rsr6)syb78w=jma$xcqn7#_)4^-myp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.veece.com', '.vercel.app', 'now.sh', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['www.veece.xyz', '.vercel.app', 'now.sh', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'web',
     'fontawesomefree'
 ]
@@ -51,7 +50,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
@@ -94,9 +92,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'ZabAOGYSVAVOJWASMAMxkifsgbXFqclF',
-        'HOST': 'viaduct.proxy.rlwy.net',
-        'PORT': '44686',
+        'PASSWORD': 'yLoWMJXvKqyJtoChZCCLlfrZEjhfzyUM',
+        'HOST': 'roundhouse.proxy.rlwy.net',
+        'PORT': '51049',
     }
 }
 
