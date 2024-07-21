@@ -201,6 +201,48 @@
 
 
 
+
+
+/* PRIVACY POLICY CSS STYLES START */
+
+#privacyPolicyHeader h4 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #6f46ea;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+#privacyPolicyHeader p {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#scrollContainer {
+    height: 380px;
+    overflow-y: scroll;
+}
+
+#scrollContainer h5 {
+    font-size: 32px;
+    color: #34c5bf;
+}
+
+#scrollContainer h6 {
+    font-size: 48px;
+    color: #684FFF;
+}
+
+
+/* PRIVACY POLICY CSS STYLES END */
+
+
+
+
+
+
+
+
 /* FOOTER CSS STYLES START */
 
 #footer-links ul {
@@ -214,6 +256,7 @@
 
 #footer-links a {
     color: black;
+    text-decoration: none;
 }
 
 /* FOOTER CSS STYLES END */
