@@ -6,3 +6,6 @@ def home(request):
 
 def privacyPolicy(request):
     return render(request, 'veece/privacy-policy.html')
+
+def help(request):
+    return render(request, 'veece/help.html')

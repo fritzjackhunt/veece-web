@@ -21,6 +21,21 @@
 
     <!-- Template Main CSS File -->
     <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = 'a5a12f673f54b79665603f13214d86fc5962a394';
+        window.smartsupp||(function(d) {
+        var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+        s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+        c.type='text/javascript';c.charset='utf-8';c.async=true;
+        c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+        })(document);
+    </script>
+    <noscript> 
+        Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a>
+    </noscript>
 </head>
 <body>
 
@@ -52,7 +67,7 @@
                 </div>
                 <div class="d-flex align-items-center">
                     <ul>
-                        <li><a href="#">Help</a></li>
+                        <li><a href="{% url 'help' %}">Help</a></li>
                     </ul>
                 </div>
                 <div class="d-flex" style="padding-left: 32px;" >
