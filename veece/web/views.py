@@ -9,3 +9,6 @@ def privacyPolicy(request):
 
 def help(request):
     return render(request, 'veece/help.html')
+
+def coming_soon(request):
+    return render(request, 'veece/coming-soon.html')

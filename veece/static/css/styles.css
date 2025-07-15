@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+.img-center {
+    display: flex;
+    justify-content: center;
+}
+
 .navbar {
     --bs-navbar-padding-y: 1.2rem;
 }
